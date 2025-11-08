@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2025.11.07 a las 08:03:27 PM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.example.com/soap-login-service">
+    <schemaBindings map="false">
+      <package name="com.example.soap_login_service"/>
+    </schemaBindings>
+    <bindings scd="tns:LoginRequest">
+      <class ref="com.example.soap_login_service.LoginRequest"/>
+    </bindings>
+    <bindings scd="tns:LoginResponse">
+      <class ref="com.example.soap_login_service.LoginResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
